@@ -34,6 +34,7 @@ public class Example extends Task implements RunnableTask<Example.Output> {
         description = "Full description of this input"
     )
     private Property<String> format;
+    private Property<String> token;
 
     @Override
     public Example.Output run(RunContext runContext) throws Exception {
